@@ -1,10 +1,18 @@
 body {
-    background-color: midnightblue;
-    color: azure;
+    background-color: midnightblue;   /*cor de fundo */
+    color: azure;  /*cor da letra  */
+    margin: 0px;  /*espaço antes da borda */
+}
+
+header {
+    border-bottom: solid 2px white;
+    padding: 20px;  /* espaçamento depois da borda e antes do conteúdo  */
+    font-size: 32px;
+    color: white;
 }
 
 h1 {
-    font-size: 30px
+    font-size: 30px;
 }
 
 p  {
