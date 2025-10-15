@@ -2,6 +2,7 @@ body {
     background-color: midnightblue;   /*cor de fundo */
     color: azure;  /*cor da letra  */
     margin: 0px;  /*espaço antes da borda */
+    font-family: "Oswald", sans-serif ;
 }
 
 header {
@@ -10,7 +11,7 @@ header {
     font-size: 32px;
     color: white;
 }
-section{
+.chamada {
     background-color: #f9fc67;
     padding-bottom: 80px;
     padding-top: 80px;
@@ -31,3 +32,24 @@ p  {
      color: rgb(38, 122, 196);
      font-size: 16px;
 }   
+
+
+.categoria-videos {
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding: left 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid greenyellow;
+}
