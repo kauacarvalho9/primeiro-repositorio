@@ -3,6 +3,7 @@ body {
     color: azure;  /*cor da letra  */
     margin: 0px;  /*espaço antes da borda */
     font-family: "Oswald", sans-serif ;
+    margin-bottom: 100px;
 }
 
 header {
